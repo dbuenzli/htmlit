@@ -33,7 +33,7 @@ let default =
     |> add licenses ["ISC"]
     |> add repo "git+https://erratique.ch/repos/htmlit.git"
     |> add issues "https://github.com/dbuenzli/htmlit/issues"
-    |> add description_tags ["codec"; "qoi"; "image"; "org:erratique"; ]
+    |> add description_tags ["web"; "html"; "org:erratique"; ]
     |> add B0_opam.Meta.build
       {|[["ocaml" "pkg/pkg.ml" "build" "--dev-pkg" "%{dev}%"]]|}
     |> tag B0_opam.tag

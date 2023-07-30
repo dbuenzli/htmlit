@@ -11,7 +11,7 @@ Homepage: <https://erratique.ch/software/htmlit>"""
 maintainer: "Daniel Bünzli <daniel.buenzl i@erratique.ch>"
 authors: "The htmlit programmers"
 license: "ISC"
-tags: ["codec" "qoi" "image" "org:erratique"]
+tags: ["web" "html" "org:erratique"]
 homepage: "https://erratique.ch/software/htmlit"
 doc: "https://erratique.ch/software/htmlit/doc"
 bug-reports: "https://github.com/dbuenzli/htmlit/issues"
