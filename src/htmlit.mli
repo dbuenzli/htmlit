@@ -730,8 +730,8 @@ module El : sig
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style}
       style}
 
-      {b Warning.} If your style element holds CSS, use {!unsafe_raw}
-      content, otherwise the
+      {b Warning.} If your style element contains CSS source, use
+      {!unsafe_raw} to specify it. Otherwise the
       {{:https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator}
       CSS child combinator ['>']} gets escaped. *)
 
