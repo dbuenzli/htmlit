@@ -1,0 +1,7 @@
+description = "HTML generation combinators"
+version = "%%VERSION_NUM%%"
+requires = ""
+archive(byte) = "htmlit.cma"
+archive(native) = "htmlit.cmxa"
+plugin(byte) = "htmlit.cma"
+plugin(native) = "htmlit.cmxs"

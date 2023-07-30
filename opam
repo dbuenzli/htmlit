@@ -1,0 +1,25 @@
+opam-version: "2.0"
+name: "htmlit"
+synopsis: "HTML generation combinators for OCaml"
+description: """\
+Htmlit provides simple but subtle combinators for generating HTML
+fragments and pages in OCaml.
+
+Htmlit is distributed under the ISC license. It has no dependencies.
+
+Homepage: <https://erratique.ch/software/htmlit>"""
+maintainer: "Daniel Bünzli <daniel.buenzl i@erratique.ch>"
+authors: "The htmlit programmers"
+license: "ISC"
+tags: ["codec" "qoi" "image" "org:erratique"]
+homepage: "https://erratique.ch/software/htmlit"
+doc: "https://erratique.ch/software/htmlit/doc"
+bug-reports: "https://github.com/dbuenzli/htmlit/issues"
+depends: [
+  "ocaml" {>= "4.14.0"}
+  "ocamlfind" {build}
+  "ocamlbuild" {build}
+  "topkg" {build & >= "1.0.3"}
+]
+build: ["ocaml" "pkg/pkg.ml" "build" "--dev-pkg" "%{dev}%"]
+dev-repo: "git+https://erratique.ch/repos/htmlit.git"
