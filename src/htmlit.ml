@@ -79,6 +79,7 @@ module At = struct
   let placeholder s = v "placeholder" s
   let rel s = v "rel" s
   let required = true' "required"
+  let role s = v "role" s
   let rows i = int "rows" i
   let rowspan i = int "rowspan" i
   let selected = true' "selected"

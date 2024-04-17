@@ -190,6 +190,10 @@ module At : sig
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required}
       required} *)
 
+  val role : string cons
+  (** {{:https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles}
+      role} *)
+
   val rows : int cons
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea#rows}rows} *)
 
@@ -243,7 +247,7 @@ module El : sig
       {ul
       {- A single HTML {{!elements}element}.}
       {- {{!section-text}Text}: character data.}
-      {- A {{!splice}splice}: a list of fragments.}
+      {- A {{!section-splice}splice}: a list of fragments.}
       {- {{!unsafe_raw_data}Unsafe raw data}: character data
          output as is, without escaping.}} *)
 
