@@ -102,7 +102,7 @@ module At : sig
       alt} *)
 
   val autocomplete : string cons
-(** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete}autocomplete} *)
+  (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete}autocomplete} *)
 
   val autofocus : t
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autofocus}autofocus} *)
@@ -181,6 +181,18 @@ module At : sig
   val placeholder : string cons
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes}
       placeholder} *)
+
+  val popover : string cons
+  (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover
+      popover} *)
+
+  val popovertarget : string cons
+  (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#popovertarget}
+      popovertarget} *)
+
+  val popovertargetaction : string cons
+  (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#popovertarget}
+      popovertargetaction}. *)
 
   val rel : string cons
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel}
