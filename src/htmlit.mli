@@ -146,6 +146,10 @@ module At : sig
   val draggable : bool cons
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable}draggable} *)
 
+  val download : string cons
+  (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#download}
+      download}. *)
+
   val for' : string cons
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/for}
       for'} *)

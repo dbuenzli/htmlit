@@ -66,6 +66,7 @@ module At = struct
   let dir s = v "dir" s
   let disabled = true' "disabled"
   let draggable b = v "draggable" (string_of_bool true) (* not a boolean attr *)
+  let download s = v "download" s
   let for' s = v "for" s
   let height i = int "height" i
   let hidden = true' "hidden"
