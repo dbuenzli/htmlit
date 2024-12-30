@@ -187,7 +187,7 @@ module At : sig
       placeholder} *)
 
   val popover : string cons
-  (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover
+  (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover}
       popover} *)
 
   val popovertarget : string cons
