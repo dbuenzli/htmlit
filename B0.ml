@@ -41,7 +41,7 @@ let default =
       [ "ocaml", {|>= "4.14.0"|};
         "ocamlfind", {|build|};
         "ocamlbuild", {|build|};
-        "topkg", {|build & >= "1.0.3"|}; ]
+        "topkg", {|build & >= "1.1.0"|}; ]
   in
   B0_pack.make "default" ~doc:"htmlit package" ~meta ~locked:true @@
   B0_unit.list ()
