@@ -1,3 +1,7 @@
+
+- Add `viewport-fit=cover` to the default value of the viewport in
+  `El.page`.
+
 v0.2.0 2025-07-25 Zagreb
 ------------------------
 
