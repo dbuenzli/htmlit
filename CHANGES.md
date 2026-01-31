@@ -1,4 +1,5 @@
 
+- Add `El.dialog`.
 - Add `viewport-fit=cover` to the default value of the viewport in
   `El.page`.
 
