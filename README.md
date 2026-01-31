@@ -1,6 +1,5 @@
 htmlit — HTML generation combinators for OCaml
 ==============================================
-%%VERSION%%
 
 Htmlit is an OCaml library providing simple but subtle combinators for
 generating HTML fragments and pages.
