@@ -71,6 +71,7 @@ module At = struct
   let height i = int "height" i
   let hidden = true' "hidden"
   let href s = v "href" s
+  let hreflang s = v "hreflang" s
   let id s = v "id" s
   let lang s = v "lang" s
   let list s = v "list" s

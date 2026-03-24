@@ -163,6 +163,9 @@ module At : sig
   val href : string cons
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes}href} *)
 
+  val hreflang : string cons
+  (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/link#hreflang}hreflang} *)
+
   val id : string cons
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id}
       id} *)
