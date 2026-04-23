@@ -92,6 +92,7 @@ module At = struct
   let src s = v "src" s
   let style s = v "style" s
   let tabindex i = int "tabindex" i
+  let target s = v "target" s
   let title s = v "title" s
   let type' s = v "type" s
   let value s = v "value" s

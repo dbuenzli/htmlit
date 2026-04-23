@@ -1,3 +1,5 @@
+
+- Add `At.target`. Thanks to Louison Calbrix for suggesting.
 - Add `At.hreflang`. Thanks to Léo Andrès for suggesting (#1).
 - Add `El.dialog`.
 - Add `viewport-fit=cover` to the default value of the viewport in

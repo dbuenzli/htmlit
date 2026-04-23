@@ -235,6 +235,9 @@ module At : sig
   val tabindex : int cons
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex}tabindex} *)
 
+  val target : string cons
+  (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a#target}target} *)
+
   val title : string cons
   (** {{:https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title}title} *)
 
